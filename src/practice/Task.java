@@ -22,5 +22,13 @@ public class Task {
 	public String getAction() {
 		return action;
 	}
-
+	
+	// セッター
+	public void setDate(LocalDate date) {
+		this.date = date;
+	}
+	
+	public void setAction(String action) {
+		this.action = action;
+	}
 }
